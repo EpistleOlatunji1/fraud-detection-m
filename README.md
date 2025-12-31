@@ -1,33 +1,53 @@
-# FRAUD DETECTION USING ML
-Machine learning project for fraud risk detection using transaction and customer data. A supervised model estimates fraud probabilities for unseen transactions, demonstrating preprocessing, categorical encoding, and inference in a realistic financial fraud detection workflow.
-# Fraud Risk Detection Using Machine Learning
+Fraud Detection System – GTBank (Nigeria)
+📌 Project Overview
 
-This project demonstrates a **fraud risk detection model** using transaction and customer data. The model predicts the likelihood of fraud in unseen transactions using machine learning techniques such as logistic regression. The goal is to identify potentially fraudulent transactions.
+This project develops a machine learning–based fraud detection system designed to identify potentially fraudulent banking transactions and support financial crime prevention, customer protection, and institutional risk monitoring. The system was built and validated using real-world–structured transaction data and modern class-imbalance handling techniques to reflect realistic banking fraud conditions.
 
-## 📊 PowerPoint Presentation
+The model generates probability-based fraud risk scores that can be used by banks for transaction screening, alert prioritization, and compliance reporting.
 
-The PowerPoint presentation for this project can be found [Fraud-Detection-Using-Transaction-and-Customer-Data.pdf](https://github.com/user-attachments/files/24179525/Fraud-Detection-Using-Transaction-and-Customer-Data.pdf)
+🧠 Objectives
 
-## 📝 Project Overview
+Detect suspicious and fraudulent transactions with high reliability
 
-### Objective
-- Build a machine learning model to predict **fraudulent transactions** based on customer and transaction data.
-  
-### Data
-The dataset includes:
-- **Transaction-level data**: Amount, category, anomaly score, timestamp, etc.
-- **Customer-level data**: Account balance, suspicious flag, etc.
+Produce probability-based fraud risk scores for each transaction
 
-### Methodology
+Handle severe class imbalance common in real banking fraud data
 
-- Used a **Logistic Regression** model for binary classification.
-- Applied **One-Hot Encoding** for categorical variables and **class balancing** for training.
-- Predicted fraud risk probabilities for unseen transactions.
+Support financial stability, customer protection, and regulatory compliance
 
-### Features Used:
-- **Transaction Amount**
-- **Anomaly Score**
-- **Transaction Category**
-- **Suspicious Flag**
-- **Account Balance**
-  
+⚙️ Methodology
+
+Algorithms: Balanced Random Forest, Logistic Regression, Decision Tree
+
+Imbalance Handling: SMOTE oversampling and class-balanced learning
+
+Data Structure: Transaction amount, account balance, anomaly scores, and behavioral risk indicators
+
+Tools: Python, Pandas, NumPy, Scikit-learn, Imbalanced-learn
+
+Validation: ROC Curve, Precision–Recall Curve, Confusion Matrix
+
+📊 Model Performance (Validated)
+
+ROC-AUC: 0.62 under extreme class imbalance (≈ 4.5% fraud rate)
+
+Threshold Optimization: Model demonstrates highest fraud capture at low probability thresholds (0.20–0.35)
+
+Evaluation: Confusion Matrix and PR Curve used for fraud governance and alert tuning
+
+These results demonstrate the system’s ability to separate fraudulent from legitimate transactions under realistic banking conditions.
+
+🏛️ Applications
+
+Banking transaction screening
+
+Financial crime monitoring
+
+Compliance and risk governance
+
+Customer fraud protection systems
+
+Why This Matters
+
+Financial fraud undermines economic stability and consumer trust.
+This project demonstrates an applied, validated, and governance-aware AI system capable of supporting responsible banking operations and regulatory compliance.
