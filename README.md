@@ -1,11 +1,11 @@
-Fraud Detection System – GTBank (Nigeria)
-📌 Project Overview
+Fraud Detection System 
+ Project Overview
 
 This project develops a machine learning–based fraud detection system designed to identify potentially fraudulent banking transactions and support financial crime prevention, customer protection, and institutional risk monitoring. The system was built and validated using real-world–structured transaction data and modern class-imbalance handling techniques to reflect realistic banking fraud conditions.
 
 The model generates probability-based fraud risk scores that can be used by banks for transaction screening, alert prioritization, and compliance reporting.
 
-🧠 Objectives
+ Objectives
 
 Detect suspicious and fraudulent transactions with high reliability
 
@@ -15,7 +15,7 @@ Handle severe class imbalance common in real banking fraud data
 
 Support financial stability, customer protection, and regulatory compliance
 
-⚙️ Methodology
+Methodology
 
 Algorithms: Balanced Random Forest, Logistic Regression, Decision Tree
 
@@ -27,7 +27,7 @@ Tools: Python, Pandas, NumPy, Scikit-learn, Imbalanced-learn
 
 Validation: ROC Curve, Precision–Recall Curve, Confusion Matrix
 
-📊 Model Performance (Validated)
+Model Performance (Validated)
 
 ROC-AUC: 0.62 under extreme class imbalance (≈ 4.5% fraud rate)
 
@@ -37,7 +37,7 @@ Evaluation: Confusion Matrix and PR Curve used for fraud governance and alert tu
 
 These results demonstrate the system’s ability to separate fraudulent from legitimate transactions under realistic banking conditions.
 
-🏛️ Applications
+Applications
 
 Banking transaction screening
 
